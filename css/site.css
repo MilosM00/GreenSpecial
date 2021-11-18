@@ -1,0 +1,830 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 60px;
+}
+
+header img{
+    margin-left: 30px;
+}
+
+header ul{
+    padding-top: 7px;
+}
+
+header ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: grey;
+    padding: 10px
+}
+
+header ul li a:hover{
+    background-color: #664a3f;
+    color: white;
+    transition: 0.2s;
+}
+
+.hero{
+    background-image: url(../images/pica-hero.jpg);
+    background-size: cover;
+    padding-top: 350px;
+    padding-bottom: 350px;
+}
+
+.hero .hero-awesome{
+    text-align: center;
+    background-color: #8dbd56;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: 10px solid white;
+}
+
+.hero .hero-awesome h1{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.hero .hero-awesome .hero-button{
+    background-color: #8dbd56;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #664a3f;
+    color: white;
+    font-weight: bold;
+}
+
+.hero .hero-awesome .hero-button:hover{
+    background-color: #664a3f;
+    transition: 0.2s;
+    border: 1px solid #664a3f;
+    font-weight: bold;
+}
+
+.prelaz{
+    background-color: grey;
+    height: 80px;
+}
+
+.restoran{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.restoran p{
+    color: grey;
+}
+
+.restoran h6{
+    background-color: #664a3f;
+    color: white;
+    font-size: 25px;
+}
+
+.restoran h6:hover{
+    background-color: #8dbd56;
+    transition: 0.2s;
+}
+
+.restoran a{
+    text-decoration: none;
+    background-color:#8dbd56;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.restoran a:hover{
+    background-color: #664a3f;
+    color: white;
+}
+
+.restoran .image-green{
+    background-color: #8dbd56;
+    height: 420px;
+    width: 510px;
+}
+
+.restoran .image-green img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.green-land{
+    background-color: #8dbd56;
+    height: 200px;
+    text-align: center;
+    color: white;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.green-land h1{
+    font-weight: bold;
+}
+
+.green-land h2{
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.menu{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    text-align: center;
+}
+
+.menu h5{
+    color: grey;
+}
+
+.menu .menu-veg{
+    background-color: #e4e6e9;
+    color: black;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+
+.menu .menu-veg img{
+    position: relative;
+    width: 90%;
+    height: 90%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.menu .menu-veg h6{
+    text-transform: capitalize;
+    color: #403339;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.menu .menu-veg a{
+    text-decoration: none;
+    padding: 7px;
+    background-color: #8dbd56;
+    color: white;
+    font-size: 20px;
+}
+
+.menu .menu-veg a:hover{
+    background-color: #664a3f;
+    transition: 0.2s;
+}
+
+.gallery{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    text-align: center;
+}
+
+.gallery h5{
+    color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.gallery ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.gallery ul li a{
+    text-decoration: none;
+    background-color: #8dbd56;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.gallery ul li a:hover{
+    background-color: #664a3f;
+    transition: 0.2s;
+}
+
+.gallery .gallery-veg{
+    background-color: #e4e6e9;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.gallery .gallery-veg img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* ----------TESTIMONIALS---------- */
+
+.testimonials{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    text-align: center;
+}
+
+.testimonials h5{
+    color: grey;
+    padding-bottom: 40px;
+}
+
+.testimonials .testimonials-back{
+    background-color: rgb(63, 61, 61);
+    padding: 30px;
+}
+
+.testimonials .testimonials-back img{
+    height: 100%;
+    width: 100%;
+}
+.testimonials p{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    top: -35px;
+}
+
+.testimonials h4{
+    padding-bottom: 20px;
+    color: #8dbd56;
+}
+
+.testimonials h6{
+    color: grey;
+}
+/*--------------------TEAM CHEF--------------------*/
+
+.team-chef{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    text-align: center;
+}
+
+.team-chef h5{
+    color: grey;
+    padding-bottom: 50px;
+}
+
+.team-chef .chef-image{
+    background-image: url(../images/c1.png);
+    background-size: cover;
+    color: #8dbd56;
+}
+
+.team-chef .chef-image .chef-overlay{
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 25px;
+    position: relative;
+}
+.team-chef .chef-image .chef-overlay:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #664a3f;
+    transition: 0.5s;
+}
+
+.team-chef .chef-image .chef-overlay h1{
+    padding-top: 185px;
+    font-size: 30px;
+}
+
+.team-chef .chef-image .chef-overlay a{
+    text-decoration: none;
+    color: white;
+    background-color: #8dbd56;
+    padding: 10px;
+}
+.team-chef .chef-image .chef-overlay a:hover{
+    background-color: #664a3f;
+    transition: 0.3s;
+}
+
+.team-chef .chef-image2{
+    background-image: url(../images/c2.png);
+    background-size: cover;
+    color: #8dbd56;
+}
+
+.team-chef .chef-image2 .chef-overlay{
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 25px;
+    position: relative;
+}
+.team-chef .chef-image2 .chef-overlay:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #664a3f;
+    transition: 0.5s;
+}
+
+.team-chef .chef-image2 .chef-overlay h1{
+    padding-top: 185px;
+    font-size: 30px;
+}
+
+.team-chef .chef-image2 .chef-overlay a{
+    text-decoration: none;
+    color: white;
+    background-color: #8dbd56;
+    padding: 10px;
+}
+.team-chef .chef-image2 .chef-overlay a:hover{
+    background-color: #664a3f;
+    transition: 0.3s;
+}
+
+.team-chef .chef-image3{
+    background-image: url(../images/c3.png);
+    background-size: cover;
+    color: #8dbd56;
+}
+
+.team-chef .chef-image3 .chef-overlay{
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 25px;
+    position: relative;
+}
+.team-chef .chef-image3 .chef-overlay:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #664a3f;
+    transition: 0.5s;
+}
+
+.team-chef .chef-image3 .chef-overlay h1{
+    padding-top: 185px;
+    font-size: 30px;
+}
+
+.team-chef .chef-image3 .chef-overlay a{
+    text-decoration: none;
+    color: white;
+    background-color: #8dbd56;
+    padding: 10px;
+}
+.team-chef .chef-image3 .chef-overlay a:hover{
+    background-color: #664a3f;
+    transition: 0.3s;
+}
+.team-chef .chef-image4{
+    background-image: url(../images/c4.png);
+    background-size: cover;
+    color: #8dbd56;
+}
+
+.team-chef .chef-image4 .chef-overlay{
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 25px;
+    position: relative;
+}
+.team-chef .chef-image4 .chef-overlay:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #664a3f;
+    transition: 0.5s;
+}
+
+.team-chef .chef-image4 .chef-overlay h1{
+    padding-top: 185px;
+    font-size: 30px;
+}
+
+.team-chef .chef-image4 .chef-overlay a{
+    text-decoration: none;
+    color: white;
+    background-color: #8dbd56;
+    padding: 10px;
+}
+.team-chef .chef-image4 .chef-overlay a:hover{
+    background-color: #664a3f;
+    transition: 0.3s;
+}
+
+/*--------------------TEAM CHEF--------------------*/
+
+.price{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    text-align: center;
+}
+
+.price h5{
+    color: grey;
+    padding-bottom: 50px;
+}
+
+.price .price-image{
+    background-image: url(../images/p1.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.price .price-image .price-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 25px;
+    position: relative;
+}
+
+.price .price-image .price-overlay ul li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.price .price-image .price-overlay h1{
+    padding-bottom: 120px;
+}
+
+.price .price-image .price-overlay a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: #8dbd56;
+}
+
+.price .price-image .price-overlay a:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.2s;
+}
+
+.price .price-image .price-overlay .price-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #8dbd56;
+    position: absolute;
+    bottom: 270px;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+}
+
+.price .price-image .price-overlay .price-circle .dolar{
+    font-size: 25px;
+    position: absolute;
+    bottom: 34px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.price .price-image .price-overlay .price-circle .month{
+    font-size: 15px;
+    color: grey;
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+    right: 0;
+    margin: 0 auto;
+}
+
+/* IMAGE 2 */
+
+.price .price-image2{
+    background-image: url(../images/p2.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.price .price-image2 .price-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 25px;
+    position: relative;
+}
+
+.price .price-image2 .price-overlay ul li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.price .price-image2 .price-overlay h1{
+    padding-bottom: 120px;
+}
+
+.price .price-image2 .price-overlay a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: #8dbd56;
+}
+
+.price .price-image2 .price-overlay a:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.2s;
+}
+
+.price .price-image2 .price-overlay .price-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #8dbd56;
+    position: absolute;
+    bottom: 270px;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+}
+
+.price .price-image2 .price-overlay .price-circle .dolar{
+    font-size: 25px;
+    position: absolute;
+    bottom: 34px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.price .price-image2 .price-overlay .price-circle .month{
+    font-size: 15px;
+    color: grey;
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+    right: 0;
+    margin: 0 auto;
+}
+
+/* IMAGE 3 */
+
+.price .price-image3{
+    background-image: url(../images/p3.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.price .price-image3 .price-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 25px;
+    position: relative;
+}
+
+.price .price-image3 .price-overlay ul li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.price .price-image3 .price-overlay h1{
+    padding-bottom: 120px;
+}
+
+.price .price-image3 .price-overlay a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: #8dbd56;
+}
+
+.price .price-image3 .price-overlay a:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.2s;
+}
+
+.price .price-image3 .price-overlay .price-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #8dbd56;
+    position: absolute;
+    bottom: 270px;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+}
+
+.price .price-image3 .price-overlay .price-circle .dolar{
+    font-size: 25px;
+    position: absolute;
+    bottom: 34px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.price .price-image3 .price-overlay .price-circle .month{
+    font-size: 15px;
+    color: grey;
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+    right: 0;
+    margin: 0 auto;
+}
+
+.blog{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    text-align: center;
+}
+
+.blog h5{
+    color: grey;
+    padding-bottom: 50px;
+}
+
+.blog .blog-grey{
+    background-color: rgb(63, 61, 61);
+    padding: 30px;
+}
+
+.blog .blog-grey img{
+    width: 100%;
+    height: 100%
+}
+
+.blog .blog-text h2{
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.blog .blog-text h6{
+    color: grey;
+    padding-bottom: 15px;
+}
+
+.blog .blog-grey .button1{
+    background-color: #8dbd56;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: -10px;
+    cursor: default;
+}
+
+.blog .blog-text .button2{
+    background-color: #8dbd56;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    cursor: default;
+}
+
+.contact{
+    background-image: url(../images/contact.png);
+    background-size: cover;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    text-align: center;
+    color: white;
+}
+
+.contact h5{
+    padding-bottom: 50px;
+}
+
+.contact form{
+    background-color: white;
+    padding: 50px;
+}
+
+.contact form input{
+    background-color: #8dbd56;
+    padding: 10px;
+    color: white;
+}
+
+.contact form label{
+    color: black;
+    text-align: left;
+    display: block;
+    font-weight: bold;
+}
+
+.contact form textarea{
+    height: 250px;
+    background-color: #8dbd56;
+}
+
+.contact form a{
+    background-color: #8dbd56;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact form a:hover{
+    background-color: #664a3f;
+    transition: 0.3s;
+}
+
+.contact textarea, .contact input{
+    width: 100%;
+    border: 0px;
+    outline: none;
+    margin-bottom: 15px;
+    height: 35px;
+}
+
+.before-footer{
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.before-footer img{
+    padding-bottom: 15px;
+}
+
+.before-footer p{
+    color: grey;
+}
+
+.before-footer h4{
+    color: #664a3f;
+    padding-bottom: 15px;
+}
+
+.before-footer a{
+    color: grey;
+    text-decoration: none;
+}
+
+.before-footer a:hover{
+    color: #8dbd56;
+    transition: 0.3s;
+}
+
+.before-footer .tackica{
+    border-bottom: 3px dotted #8dbd56;
+}
+
+.before-footer ul li{
+    list-style: square;
+}
+
+.before-footer label{
+    color: black;
+    text-align: left;
+    display: block;
+    font-weight: bold;
+}
+
+
+.before-footer button{
+    padding: 10px;
+    border: 0;
+    background-color: #8dbd56;
+    color: white;
+    font-weight: bold;
+}
+
+.before-footer button:hover{
+    background-color: #664a3f;
+    transition: 0.3s;
+}
+
+footer{
+    background-color: rgb(63, 61, 61);
+    height: 100px;
+    text-align: center;
+}
+
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+footer ul li a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    color: #8dbd56;
+    transition: 0.3s;
+}
+
+footer p{
+    color: white;
+}
